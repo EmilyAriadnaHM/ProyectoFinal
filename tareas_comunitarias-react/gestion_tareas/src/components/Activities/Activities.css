@@ -1,0 +1,74 @@
+
+.activities-container {
+    padding: 2rem;
+    background-color:rgb(227, 255, 234);
+    min-height: 100vh;
+}
+
+.activity-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.activity-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.activity-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.activity-category {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    color: white;
+}
+
+.category-high {
+    background-color: #ff4d4f;
+}
+
+.category-medium {
+    background-color: #faad14;
+}
+
+.category-low {
+    background-color: #52c41a;
+}
+
+.activity-benefits {
+    margin-bottom: 1rem;
+}
+
+.activity-benefits ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.activity-priority {
+    font-weight: bold;
+    color: #1890ff;
+}
+
+.activity-footer {
+    text-align: right;
+}
+
+.activity-footer a {
+    color: #1890ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.activity-footer a:hover {
+    text-decoration: underline;
+}
